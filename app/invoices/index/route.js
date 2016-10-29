@@ -39,6 +39,7 @@ export default AbstractIndexRoute.extend({
 
   queryParams: {
     startKey: { refreshModel: true },
-    status: { refreshModel: true }
+    status: { refreshModel: true },
+    key: {refreshModel:false}
   }
 });
